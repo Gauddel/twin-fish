@@ -1,0 +1,239 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma-extensions/src/sass/index.sass";
+
+@media only screen and (min-width : 853px) {
+    #contactezNousCont {
+        padding-top: 95% !important;
+    }
+
+    #contactezNous {
+        margin-bottom: 30% !important;
+    }
+
+    #contactUs {
+        background-image: url("Images/nousVousAccompagnons.png");
+    }
+
+    .tile.is-parent {
+        padding: 2rem;
+    }
+
+    #heroBody {
+        padding: 5rem 1.5rem !important;
+    }
+    
+    #defi {
+        display: grid;
+        grid-template-columns: 50% 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+    #defiDescription {
+        grid-column-start: 1;
+        text-align: justify;
+        vertical-align: baseline !important;
+        display: grid;
+        grid-template-rows: 3fr 3fr 3fr;
+    }
+    
+    #defiAdvantage {
+        grid-column-start: 2;
+        display: grid;
+        grid-template-rows: 1fr 9fr 1fr;
+    }
+    
+    #defiUsesCases {
+        grid-column-start: 3;
+        display: grid;
+        grid-template-rows: 1fr 9fr 1fr;
+    }
+    
+    .tileCenter {
+        grid-row-start: 2;
+    }
+    
+    #useCaseTile {
+        padding-right: -5% !important;
+        padding-left: -5% !important;
+        border-radius: 4px;
+        padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+    }
+    
+    #tileP {
+        margin-bottom: 6%;
+    }
+
+    #uniswapImage {
+        margin-top: 25% !important;
+        margin-bottom: 25% !important;
+    }
+}
+
+@media only screen and (max-width : 852px) and (min-width : 600px) {
+    #contactezNousCont {
+        padding-top: 120% !important;
+    }
+
+    #contactezNous {
+        margin-bottom: 10% !important;
+    }
+
+    #accompagnement {
+        background-image: url("Images/nousVousAccompagnonsInferiorTo853to620pxWidth.png");
+    }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 450px){
+    #contactezNousCont {
+        padding-top: 150% !important;
+    }
+
+    #contactezNous {
+        margin-bottom: 10% !important;
+    }
+
+    #accompagnement {
+        background-image: url("Images/nousVousAccompagnonsInferiorTo853pxWidth.png");
+    }
+}
+
+@media only screen and (max-width : 449px) {
+    #contactezNousCont {
+        padding-top: 320% !important;
+    }
+
+    #contactezNous {
+        margin-bottom: 15% !important;
+    }
+
+    #accompagnement {
+        background-image: url("Images/nousVousAccompagnonsInferiorMobile.png");
+    }
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 1fr;
+}
+
+#navbar-brand {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.navbar {
+    background-color: white;
+    padding : 0% !important;
+    justify-content: center !important;
+}
+.navbar-item {
+    flex-shrink: unset !important;
+}
+
+.navbar-item img {
+    max-height: 100% !important;
+    max-width: 100% !important;
+}
+
+#accompagnement {
+    position: absolute;
+    width: 100% !important;
+    height : auto !important;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#contactUs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    min-height: 100% !important;
+}
+
+#contactezNousCont {
+    grid-column-start: 2;
+    min-height: inherit !important;
+}
+
+#allPage {
+    display : grid;
+    grid-template-rows: 50% 1fr;
+}
+
+#firstTile {
+    // border: solid 3px #856c8b;
+    background-color: #856c8b;
+    justify-content: center;
+    color : white;
+    margin : 10%;
+}
+
+#secondTile {
+    // border: solid 3px #d4ebd0;
+    background-color: #d4ebd0;
+    margin : 10%;
+}
+
+#thirdTile {
+    // border: solid 3px #a4c5c6;
+    background-color: #a4c5c6;
+    margin : 10%;
+}
+
+#footer {
+    background-color: #856c8b;
+    color: white;
+    padding: 0% !important;
+}
+
+#hero {
+    background-color: #ffeb99;
+}
+
+.notification {
+    padding-top: 3% !important;
+    padding-bottom: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+#uniswapImage {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#erc20Image {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 25% !important;
+    margin-top: 25% !important;
+}
+
+#vBorrowImage {
+    justify-content: center !important;
+    border-top: solid 20% #a4c5c6;
+}
+
+#services {
+    background-color: #E9E9E9;
+}
+
+#roundedImage {
+    border: solid 1px white;
+}
+
+#roundedImageLink {
+    grid-column-start: 2;
+}
+
+#flaticon {
+    font-size: 5px;
+}
+
+#emailLink {
+    color: white;
+}
