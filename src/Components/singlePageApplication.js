@@ -19,12 +19,21 @@ class SinglePageApplication extends React.Component {
                     </figure>
                     </a>
                 </div>
+                <div id="blogSection">
+                    <div id="blogButton">
+                    <a href="https://academy.twin-fish.com">
+                        <button class="button is-outlined blogButton">Blog</button>
+                    </a>
+                    </div>
+                </div>
             </nav>
             <div>
                 <div id="accompagnement">
                     <div id="contactUs">
                         <div className="container" id="contactezNousCont">
-                            <button className="button is-small is-primary is-rounded is-focused" id="contactezNous">CONTACTEZ-NOUS</button>
+                            <a href="#footer">
+                                <button className="button is-small is-primary is-rounded is-focused" id="contactezNous">CONTACT US</button>
+                            </a>
                         </div>
                     </div>
                     <section className="hero is-medium is-light is-bold">
@@ -86,7 +95,7 @@ class SinglePageApplication extends React.Component {
                                     <p className="title">Freecoin</p>
                                     <p className="subtitle">Implementation of ERC20 Token</p>
                                     <figure className="image" id="uniswapImage">
-                                        <a href="https://erc20exchange.herokuapp.com" id="roundedImageLink">
+                                        <a href="https://freecointoken.herokuapp.com/" id="roundedImageLink">
                                             <img className="is-rounded" id="roundedImage" src="https://image.flaticon.com/icons/png/128/2284/2284958.png"/>
                                         </a>
                                     </figure>
@@ -152,7 +161,9 @@ class SinglePageApplication extends React.Component {
                         <br/>
                         <br/>
                         <br/>
-                        <button className="button are-medium is-rounded is-focused is-primary">Contact us</button>
+                        <a href="#footer">
+                            <button className="button are-medium is-rounded is-focused is-primary">CONTACT US</button>
+                        </a>
                     </section>
                     <footer className="footer" id="footer">
                         <div className="content" id="footerContent">
@@ -160,7 +171,7 @@ class SinglePageApplication extends React.Component {
                                 <img src="./whiteIcon.png"/>
                             </figure>                     
                         </div>
-                        <div>Contact us at <a href="#" id="emailLink" title="Email">matthieumariejoseph@gmail.com</a></div>
+                        <div>Contact us at <a href="#" id="emailLink" title="Email">matthieu.mariejoseph@twin-fish.com</a></div>
                         <br/>
                         <br/>
                         <div id="flaticon">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

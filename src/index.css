@@ -14162,7 +14162,7 @@ input[type=range].slider {
     padding-top: 95% !important; }
   #contactezNous {
     margin-bottom: 30% !important; }
-  #contactUs {
+  #accompagnement {
     background-image: url("Images/nousVousAccompagnons.png"); }
   .tile.is-parent {
     padding: 2rem; }
@@ -14323,3 +14323,17 @@ input[type=range].slider {
 
 #emailLink {
   color: white; }
+
+#blogSection {
+  grid-column-start: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+#blogButton {
+  grid-column-start: 3; }
+
+.blogButton {
+  margin-top: 4% !important;
+  margin-right: 4% !important;
+  color: #856c8b;
+  border-color: #856c8b; }
